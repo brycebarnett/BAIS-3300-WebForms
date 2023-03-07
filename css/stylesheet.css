@@ -1,8 +1,12 @@
 body {
-    background-color:springgreen;
+    background-color:blanchedalmond;
 }
 
 button{
-background-color: turquoise;
-border-color: hotpink;
+background-color: springgreen;
+border-color: black;
+}
+
+h1{
+    font-size: 20px;
 }

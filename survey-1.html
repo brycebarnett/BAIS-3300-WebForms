@@ -25,9 +25,46 @@
 <label for="email"> E-Mail Address:
     <input id="email" type = 'email'>
 </label>
+<p></p>
+<div>
+    <fieldset>
+        <legend> Choose your favorite NFL team from the drop-down below (If NA, choose Other)</legend>
+<label for="Favorite Sports Teams" Choose your favorite sports team.. if NA choose OTHER.>
+    <select name="Favorite Sports Teams" id="Favorite Sports Teams">
+    <option value="Chiefs"> Kansas City Chiefs</option>
+    <option value="Cowboys"> Dallas Cowboys</option>
+    <option value="Bears">Chicago Bears </option>
+    <option value="Colts"> Indianapolis Colts</option>
+    <option value="Vikings"> Minnesota Vikings</option>
+    <option value="Other"> Other</option></select>
+    </select>
+</label>
+
 
 </fieldset>
 
+
+<h1><label for="Best NFL Player">Best Current NFL Player (Any Position)</label><br></h1>
+<input type="radio" id="Mahomes" name="fav_language" value="Mahomes">
+<label for="Mahomes">Patrick Mahomes</label><br>
+<input type="radio" id="Donald" name="fav_language" value="Donald">
+<label for="Donald">Aaron Donald</label>
+<input type="radio" id="Ramsey" name="fav_language" value="Ramsey">
+<label for="Ramsey">Jalen Ramsey</label><br>
+<input type="radio" id="Other" name="fav_language" value="Other">
+<label for="Other">Other - Provide Your Answer:</label>
+<input type="radio" name="Other" value="">Other <input type="text" name="other_reason" />
+</div>
+
+</fieldset>
+<h1> Check any NFL stadium you have visited:</h1>
+<input type="checkbox" id="Bank" name="Bank" value="US Bank">
+<label for="US Bank"> U.S. Bank Stadium (Minneapolis, Minnesota)</label><br>
+<input type="checkbox" id="ATAT" name="ATAT" value="ATAT">
+<label for="ATAT"> AT&T Stadium/Jerry's World (Arlington, Texas)</label><br>
+<input type="checkbox" id="Oil" name="Oil" value="Oil">
+<label for="Oil"> Lucas Oil Stadium (Indianapolis, Indiana)</label><br>
+<input type="checkbox" id="Other" name = Other value="Other"> Other (Please Provide) <input type="text" name="other_reason" />
     </form>
     <p></p>
     <button onclick="window.location.href='./survey-2.html';">
