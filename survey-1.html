@@ -9,67 +9,76 @@
 </head>
 <body>
     <h1> Survey Page 1!</h1>
-    <form>
+<form>
+
 <fieldset>
 
 <legend> Contact Information</legend>
 <div></div>
 <label for="fname"> First Name:
-    <input id="fname" type = 'text' autofocus>
+    <input id="fname" type = "text" required autofocus>
 </label>
 <div></div>
-<label for="fname"> Last Name:
-    <input id="fname" type = 'text'>
+<label for="lname"> Last Name:
+    <input id="lname" type = "text" required>
 </label>
 <div></div>
 <label for="email"> E-Mail Address:
-    <input id="email" type = 'email'>
+    <input id="email" type = "email" required>
 </label>
+</fieldset>
+<div></div>
+
+<label for="gender"> Gender:</label>
+<select name="gender" id="gender">
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="Non-Binary">Non-Binary</option>
+  <option value="Trans Man">Trans Man</option>
+  <option value="Trans Woman">Trans Woman</option>
+  <option value="Genderqueer">Genderqueer</option>
+  <option value="Gender Non-Conforming">Gender Non-Conforming</option>
+  <option value="Multi-Gender">Multi-Gender</option>
+  <option value="Decline to Answer">Decline to Answer</option>
+</select>
 <p></p>
-<div>
-    <fieldset>
-        <legend> Choose your favorite NFL team from the drop-down below (If NA, choose Other)</legend>
-<label for="Favorite Sports Teams" Choose your favorite sports team.. if NA choose OTHER.>
-    <select name="Favorite Sports Teams" id="Favorite Sports Teams">
-    <option value="Chiefs"> Kansas City Chiefs</option>
-    <option value="Cowboys"> Dallas Cowboys</option>
-    <option value="Bears">Chicago Bears </option>
-    <option value="Colts"> Indianapolis Colts</option>
-    <option value="Vikings"> Minnesota Vikings</option>
+<div></div>
+<h1>What is your current college major at Tippie College of Business? (If NA, choose Other)</h1>
+<label for="CollegeMajor"> Please Choose Below:</label>
+    <select name="CollegeMajor" id="CollegeMajor">
+    <option value="Business Management"> Business Management</option>
+    <option value="Marketing"> Marketing</option>
+    <option value="Finance">Finance </option>
+    <option value="BAIS"> Business Analytics & Information Systems</option>
+    <option value="Accounting"> Accounting</option>
+    <option value="Economics"> Economics</option>
     <option value="Other"> Other</option></select>
-    </select>
-</label>
-
-
-</fieldset>
-
-
-<h1><label for="Best NFL Player">Best Current NFL Player (Any Position)</label><br></h1>
-<input type="radio" id="Mahomes" name="fav_language" value="Mahomes">
-<label for="Mahomes">Patrick Mahomes</label><br>
-<input type="radio" id="Donald" name="fav_language" value="Donald">
-<label for="Donald">Aaron Donald</label>
-<input type="radio" id="Ramsey" name="fav_language" value="Ramsey">
-<label for="Ramsey">Jalen Ramsey</label><br>
-<input type="radio" id="Other" name="fav_language" value="Other">
-<label for="Other">Other - Provide Your Answer:</label>
-<input type="radio" name="Other" value="">Other <input type="text" name="other_reason" />
-</div>
-
-</fieldset>
-<h1> Check any NFL stadium you have visited:</h1>
-<input type="checkbox" id="Bank" name="Bank" value="US Bank">
-<label for="US Bank"> U.S. Bank Stadium (Minneapolis, Minnesota)</label><br>
-<input type="checkbox" id="ATAT" name="ATAT" value="ATAT">
-<label for="ATAT"> AT&T Stadium/Jerry's World (Arlington, Texas)</label><br>
-<input type="checkbox" id="Oil" name="Oil" value="Oil">
-<label for="Oil"> Lucas Oil Stadium (Indianapolis, Indiana)</label><br>
-<input type="checkbox" id="Other" name = Other value="Other"> Other (Please Provide) <input type="text" name="other_reason" />
-    </form>
+<p></p>
+<h1>Best Business Course At The University of Iowa</h1>
+<input type="radio" id="Digital" name="Class" value="Digital">
+<label for="Digital">Digital Product Management</label><br>
+<input type="radio" id="Wrangling" name="Class" value="Wrangling">
+<label for="Wrangling">Data Wrangling</label>
+<input type="radio" id="Mining" name="Class" value="Mining">
+<label for="Mining">Data Mining</label><br>
+<label for="Other">Provide Your Answer:</label>
+<input type="radio" name="Class" value="">Other <input type="text" name="other_reason">
+<div></div>
+<h1>Check All Boxes That Apply To Your Tippie Experience</h1>
+<input type="checkbox" id="good" name="good" value="Good">
+<label for="good"> I have been emersed in many valuable projects and assignments during my time in Tippie.</label><br>
+<input type="checkbox" id="nuetral" name="nuetral" value="Nuetral">
+<label for="nuetral"> I have had some good and bad experiences in my time at Tippie relating to project and group work.</label><br>
+<input type="checkbox" id="bad" name="bad" value="Bad">
+<label for="bad"> I wish that Tippie had provided a better environment for me to learn my skills for my future career.</label><br>
+<p></p>
+<h1> Why Did You Choose Your Major? Please Briefly Explain:</h1>
+<input type="text" id="Other" name = Other value="Reasoning"> Please Answer In The Text Box Provided
     <p></p>
     <button onclick="window.location.href='./survey-2.html';">
         Go To Next Page
       </button>
       <p>Page 1 of 2</p>
+</form>
 </body>
 </html>
