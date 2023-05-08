@@ -1,6 +1,8 @@
-# BAIS-3300-WebForms
+# BAIS-3300-WebForms 👾
 WebForms HW assignment
 Created by Bryce Barnett
+
+https://witty-meadow-045bfa80f.2.azurestaticapps.net/
 
 ## Description of Project:
 
@@ -31,10 +33,13 @@ Overall, this  project taught me many valuable lessons about project management,
 
 4. Install the dependencies with `pip install -r requirements.txt`
 
-8. Run the program in this environment using either of the codes below:
+5. Run the program in this environment using either of the codes below:
 
    - `flask run`
    - `python app.py`
 
-9. Test the application by visiting it in your web browser (Ex: Google Chrome)
+6. Test the application by visiting it in your web browser (Ex: Google Chrome)
+
+## Optional Instructions
+
 
