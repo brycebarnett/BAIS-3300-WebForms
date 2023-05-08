@@ -1,4 +1,7 @@
 # BAIS-3300-WebForms 👾
+
+![Azure badge](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+
 WebForms HW assignment
 Created by Bryce Barnett
 
