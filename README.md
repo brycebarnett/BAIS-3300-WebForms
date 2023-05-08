@@ -19,31 +19,22 @@ Overall, this  project taught me many valuable lessons about project management,
 
 1. Clone this repository to local computer from GitHub
 
-2. Create a new repository in your GitHub and clone it to the local computer or PC
-
-3. Copy all files, EXCEPT the .git folder, from my repository folder into your repository folder
-
-4. Delete this repository folder from your computer to create a new one
-
-5. Create a new virtual environment. Use your PC's code below:
+2. Create a new virtual environment. Use your PC's code below:
 
    - Windows: `python -m venv ./venv`
    - Mac: `python3 -m venv ./venv`
 
-6. Activate the new virtual environment using your PC's code:
+3. Activate the new virtual environment using your PC's code:
 
    - Windows: `.\venv\Scripts\activate`
    - Mac: `source ./venv/bin/activate`
 
-7. Install the dependencies with `pip install -r requirements.txt`
+4. Install the dependencies with `pip install -r requirements.txt`
 
-8. Run the program in this environment using either:
+8. Run the program in this environment using either of the codes below:
 
    - `flask run`
    - `python app.py`
 
-9. Test the application by visiting it in your web browser (Ex: Google Chrome) and visting "http://localhost:5000" 
+9. Test the application by visiting it in your web browser (Ex: Google Chrome)
 
-10. If all works, commit to GitHub repository.
-
-11. Customize your web form to find whatever you want!
