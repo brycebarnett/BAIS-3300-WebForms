@@ -45,4 +45,9 @@ Overall, this  project taught me many valuable lessons about project management,
 
 ## Optional Instructions 😎
 
+1. Add additional questions and images using similiar syntax
+
+2. Add pictures to your local file to add images to web form
+
+## Enjoy your new web form!
 
